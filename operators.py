@@ -23,7 +23,7 @@ def task_1():
     number_1 = 5
     number_2 = 10
 
-    return number_1 > number_2
+    return number_1 < number_2
 
 def task_2():
 
@@ -31,8 +31,12 @@ def task_2():
     b = 10
     c = 2
 
-    # Write your code here...
-    result = None # replace "None" with your code
+    if a > b or a > c:
+        result = True
+    else:
+        result = False
+
+        
     #------------------------
 
     return result
@@ -44,7 +48,12 @@ def task_3():
     c = 2
 
     # Write your code here...
-    result = None # replace "None" with your code
+    if a > b and a > c:
+        result = True
+    else:
+        result = False
     #------------------------
 
     return result
+
+print(task_3())
