@@ -55,5 +55,3 @@ def task_3():
     #------------------------
 
     return result
-
-print(task_3())
